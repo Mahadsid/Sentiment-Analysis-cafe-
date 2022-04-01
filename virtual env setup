@@ -1,0 +1,9 @@
+python -m venv sentanyls
+sentanyls\Scripts\activate.bat
+pip list
+pip install transformers requests beautifulsoup4 pandas numpy
+pip install torch torchvision torchaudio
+ipython kernel install --user --name=sentanyls
+
+
+//then open jupyter notebook and choose sentanyls as kernel
